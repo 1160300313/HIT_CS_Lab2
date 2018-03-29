@@ -26,7 +26,7 @@ public class GraphPoetTest {
 
 	@Test
 	public void test1() throws IOException {
-		String name = "P1/poet/seven-words.txt";
+		String name = "seven-words.txt";
 		File file = new File(name);
 		GraphPoet graphPoet = new GraphPoet(file);
 		String input = "Seek to explore new and exciting synergies!";

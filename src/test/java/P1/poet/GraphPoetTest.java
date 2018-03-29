@@ -37,7 +37,7 @@ public class GraphPoetTest {
 
 	@Test
 	public void test2() throws IOException {
-		String name = "P1/poet/mugar-omni-theater.txt";
+		String name = "src/main/java/P1/poet/mugar-omni-theater.txt";
 		File file = new File(name);
 		GraphPoet graphPoet = new GraphPoet(file);
 		String input = "Test the system.";
@@ -48,7 +48,7 @@ public class GraphPoetTest {
 
 	@Test
 	public void testMulWeight() throws IOException {
-		String name = "P1/poet/multi-weight.txt";
+		String name = "src/test/java/P1/poet/multi-weight.txt";
 		File file = new File(name);
 		GraphPoet graphPoet = new GraphPoet(file);
 		String input = "hello, goodbye!";
@@ -59,7 +59,7 @@ public class GraphPoetTest {
 
 	@Test
 	public void testTostring() throws IOException {
-		String name = "P1/poet/seven-words.txt";
+		String name = "src/test/java/P1/poet/seven-words.txt";
 		File file = new File(name);
 		GraphPoet graphPoet = new GraphPoet(file);
 		// System.out.println(graphPoet);
